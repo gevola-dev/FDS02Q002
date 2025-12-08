@@ -1,2 +1,2 @@
 # FDS02Q002
-Repo per corso di laurea magistrale Data Science - Machine learning &amp; decision models
+Repo for Master's Degree Course in Data Science - Machine Learning & Decision Models
