@@ -2,3 +2,13 @@
 /ml-knime-workspace/.metadata/
 /datasets/
 #data.zip
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
