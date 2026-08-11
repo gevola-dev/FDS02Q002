@@ -1,7 +1,10 @@
+# knime
 /ml-knime-workspace/Example Workflows/
 /ml-knime-workspace/.metadata/
-/datasets/
-#data.zip
+/ml-knime-workspace/**/port_*/
+/ml-knime-workspace/**/.knimenode/
+/ml-knime-workspace/**/*.png
+data.zip
 
 # Environments
 .env
@@ -12,3 +15,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# datasets
+/data/
