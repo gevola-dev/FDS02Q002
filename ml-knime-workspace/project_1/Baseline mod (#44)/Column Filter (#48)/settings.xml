@@ -6,16 +6,9 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="grouByColumns_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="grouByColumns">
-<config key="InclList">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="top_tier"/>
-</config>
-<config key="ExclList">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
 <entry key="array-size" type="xint" value="26"/>
 <entry key="0" type="xstring" value="times_teaching"/>
 <entry key="1" type="xstring" value="times_international"/>
@@ -42,79 +35,34 @@
 <entry key="22" type="xstring" value="cwur_patents"/>
 <entry key="23" type="xstring" value="cwur_score"/>
 <entry key="24" type="xstring" value="times_female_value"/>
-<entry key="25" type="xstring" value="times_male_value"/>
+<entry key="25" type="xstring" value="top_tier"/>
 </config>
-<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
-</config>
-<config key="maxNoneNumericalVals_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="maxNoneNumericalVals" type="xint" value="10000"/>
-<config key="enableHilite_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="enableHilite" type="xboolean" value="false"/>
-<config key="valueDelimiter_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="valueDelimiter" type="xstring" value=", "/>
-<config key="sortInMemory_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="sortInMemory" type="xboolean" value="false"/>
-<config key="columnNamePolicy_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="columnNamePolicy" type="xstring" value="Aggregation method (column name)"/>
-<config key="aggregationColumn">
-<config key="columnNames">
+<config key="excluded_names">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="year"/>
+<entry key="0" type="xstring" value="times_male_value"/>
 </config>
-<config key="columnTypes">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
-<entry key="is_null" type="xboolean" value="false"/>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
 </config>
 </config>
-<config key="aggregationMethod">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="Count"/>
 </config>
-<config key="inclMissingVals">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xboolean" value="false"/>
-</config>
-</config>
-<config key="aggregationOperatorSettings"/>
-<config key="patternAggregators"/>
-<config key="dataTypeAggregators"/>
-<config key="retainOrder_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="retainOrder" type="xboolean" value="false"/>
-<config key="inMemory_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="inMemory" type="xboolean" value="false"/>
-<config key="nodeVersion_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="nodeVersion" type="xint" value="1"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.preproc.groupby.GroupByNodeFactory"/>
-<entry key="node-name" type="xstring" value="GroupBy"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
@@ -124,7 +72,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
 <entry key="node-feature-version" type="xstring" value="3.3.4.v201802141403"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="GroupBy"/>
+<entry key="name" type="xstring" value="Column Filter"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -132,12 +80,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 2"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 388, Cols: 26"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="efe98e36-c7f3-44f5-977e-669673fcd109"/>
+<entry key="file_store_id" type="xstring" value="e0b80f52-3372-4af5-b883-e5ca2415f617"/>
 </config>
 </config>

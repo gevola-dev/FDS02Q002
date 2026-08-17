@@ -36,31 +36,31 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Accuracy"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.6107784431137725"/>
+<entry key="value" type="xdouble" value="0.9820359281437125"/>
 </config>
 <config key="Variable_6">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Error"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.38922155688622756"/>
+<entry key="value" type="xdouble" value="0.017964071856287425"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="#Correct"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="102"/>
+<entry key="value" type="xint" value="164"/>
 </config>
 <config key="Variable_8">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="#False"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="65"/>
+<entry key="value" type="xint" value="3"/>
 </config>
 <config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Cohen's kappa"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.0"/>
+<entry key="value" type="xdouble" value="0.9623223283447394"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -68,7 +68,7 @@
 </config>
 <config key="model">
 <entry key="first" type="xstring" value="top_tier"/>
-<entry key="second" type="xstring" value="prediction_dummy"/>
+<entry key="second" type="xstring" value="prediction_logreg"/>
 <entry key="flowVarPrefix" type="xstring" isnull="true" value=""/>
 <entry key="sortingReversed" type="xboolean" value="false"/>
 <entry key="sortingStrategy" type="xint" value="0"/>
@@ -108,6 +108,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2ad3b46f-3931-45c7-9942-9de563d8fd1a"/>
+<entry key="file_store_id" type="xstring" value="a47757c4-0b5d-4b08-a723-49f3fbd03381"/>
 </config>
 </config>
