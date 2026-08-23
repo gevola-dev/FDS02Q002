@@ -194,22 +194,25 @@ This lecture teaches you about the Simpson’s paradox, a paradox you need to un
 | 14 ago | Modulo 5.1 Introduction to Clustering.              | 1.5h        |
 | 15 ago | Modulo 5.2 Proximity.                               | 2h          |
 | 16 ago | Progetto: confronto modelli e tuning leggero.       | 3h          |
-| 17 ago | Modulo 6.1 Prototype-Based.                         | 1.5h        |
-| 18 ago | Modulo 6.2 Hierarchical Agglomerative.              | 1h          |
-| 19 ago | Modulo 6.3 Density-Based.                           | 1h          |
-| 20 ago | Modulo 6.4 Graph-Based.                             | 1.5h        |
-| 21 ago | Modulo 6.5 Clustering Algorithms - Practice.        | 1.5h        |
-| 22 ago | Modulo 7.1 External Measures.                       | 1h          |
-| 23 ago | Modulo 7.2 Internal Measures.                       | 1.5h        |
-| 24 ago | Modulo 7.3 Validity Paradigm.                       | 0.5h        |
-| 25 ago | Modulo 7.4 The Fundamental Problem.                 | 1h          |
-| 26 ago | Modulo 8.1 Introduction.                            | 1h          |
-| 27 ago | Modulo 8.2 Rules Extraction + 8.4 Rules Evaluation. | 2h          |
-| 28 ago | Progetto: report finale + consegna.                 | 3h          |
-| 29 ago | Buffer progetto / correzioni finali.                | 1–2h        |
-| /      | Ripasso scritto: moduli 2–3.                        | 2h          |
-| /      | Ripasso scritto: modulo 4.                          | 2h          |
-| /      | Ripasso scritto: moduli 5–6.                        | 2h          |
-| /      | Ripasso scritto: moduli 7–8.                        | 2h          |
-| /      | Simulazione completa + errori.                      | 2.5–3h      |
+| 19 ago | Modulo 7.1 External Measures.                       | 1h          |
+| 20 ago | Modulo 7.2 Internal Measures.                       | 1.5h        |
+| 21 ago | Modulo 7.3 Validity Paradigm.                       | 0.5h        |
+| 22 ago | Modulo 7.4 The Fundamental Problem.                 | 1h          |
+| 23 ago | Modulo 8.1 Introduction.                            | 1h          |
+| 24 ago | Modulo 8.2 Rules Extraction + 8.4 Rules Evaluation. | 2h          |
+| 25 ago | Progetto: report finale.                            | 3h          |
+| 26 ago | Buffer progetto / correzioni finali.                | 1–2h        |
+| 27 ago | Ripasso scritto: moduli 2–3.                        | 2h          |
+| 28 ago | Ripasso scritto: modulo 4.                          | 2h          |
+| 29 ago | Ripasso scritto: moduli 5.                          | 2h          |
+| 30 ago | Modulo 6 concetti base.                             | 1.5h        |
+| 31 ago | Ripasso scritto: moduli 7–8.                        | 2h          |
+| 01 set | Simulazione completa 1 + errori.                    | 2.5–3h      |
+| 02 set | Simulazione completa 2 + errori.                    | 2.5–3h      |
+| 03 set | Simulazione completa 3 + errori.                    | 2.5–3h      |
 | /      | Esame scritto.                                      | —           |
+| /      | Modulo 6.1 Prototype-Based.                         | 1.5h        |
+| /      | Modulo 6.2 Hierarchical Agglomerative.              | 1h          |
+| /      | Modulo 6.3 Density-Based.                           | 1h          |
+| /      | Modulo 6.4 Graph-Based.                             | 1.5h        |
+| /      | Modulo 6.5 Clustering Algorithms - Practice.        | 1.5h        |
