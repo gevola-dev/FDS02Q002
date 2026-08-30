@@ -235,4 +235,4 @@ average_world_rank
 
 Using them as predictors would produce data leakage and artificially inflated performance estimates.
 
-The final modeling workflow used 26 numeric predictors, including `times_female_value` and `times_male_value`. These two columns replace the earlier report's incorrect reference to `times_female_percentage`.
+The final modeling workflow used 26 numeric predictors, including `times_international`, `times_female_value`, and `times_male_value`. The `times_international` variable is distinct from `times_international_students`: the first is a Times ranking indicator, while the second represents the percentage of international students. The two gender-ratio components replace the earlier report's incorrect reference to `times_female_percentage`.

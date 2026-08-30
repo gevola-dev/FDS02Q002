@@ -25,16 +25,14 @@ The same training/test partition was reused for Logistic Regression, Random Fore
 
 The modeling table uses the full set of available numeric predictors after the preprocessing and leakage-control steps. The world-ranking variables used to construct the target were excluded from the predictor set, as was `average_world_rank`. Identifier columns and excluded national-ranking variables were also removed.
 
-The effective modeling table used 26 predictors, including:
+The effective modeling table used 26 numeric predictors. It included the following groups of variables:
 
-- Times indicators;
-- Shanghai indicators;
-- CWUR indicators;
-- `year`;
-- `times_female_value`;
-- `times_male_value`.
+- 10 Times indicators, including `times_international`, `times_international_students`, `times_female_value`, and `times_male_value`;
+- 6 Shanghai indicators;
+- 9 CWUR indicators;
+- `year`.
 
-The earlier baseline report described 24 predictors and a single `times_female_percentage` feature. The current KNIME workflow shows that the effective features are `times_female_value` and `times_male_value`; this discrepancy should be corrected in the consolidated report.
+The final feature count is 26: 10 Times indicators, 6 Shanghai indicators, 9 CWUR indicators, and `year`. The Times variables `times_international` and `times_international_students` are distinct: the former is a ranking indicator, whereas the latter describes the proportion of international students. The final workflow also uses the two ratio components `times_female_value` and `times_male_value` rather than the previously documented derived variable `times_female_percentage`.
 
 ## 3. Models and workflow
 

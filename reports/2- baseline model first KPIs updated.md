@@ -20,12 +20,13 @@ The final modeling table used **26 numeric predictors**. They were selected from
 #### Times
 
 - `times_teaching`
-- `times_international_students`
+- `times_international`
 - `times_research`
 - `times_citations`
 - `times_income`
 - `times_student_staff_ratio`
 - `times_num_students`
+- `times_international_students`
 - `times_female_value`
 - `times_male_value`
 
@@ -54,7 +55,7 @@ The final modeling table used **26 numeric predictors**. They were selected from
 
 - `year`
 
-The earlier version of this report referred to 24 predictors and a derived `times_female_percentage` feature. The current KNIME workflow uses 26 predictors and the effective columns `times_female_value` and `times_male_value` instead.
+The final KNIME workflow uses 26 numeric predictors. The Times feature set includes both `times_international`, a ranking indicator, and `times_international_students`, which represents the percentage of international students. These are distinct variables. The earlier version of the report referred to 24 predictors and to a derived `times_female_percentage` feature; the final workflow instead uses the two effective columns `times_female_value` and `times_male_value`.
 
 ### Excluded columns
 
