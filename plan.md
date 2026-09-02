@@ -13,6 +13,7 @@ The EXAM consists of
 - Your project is assumed to be a PFD file smaller than 10MB. Furthermore, the first page of the PDF must list name and surname of all the team's members.
 - Export the KNIME workflow by setting "Exclude data from export"
 - Compress the exported KNIME workflow and the PDF of your project using the "rar" utility.
+- Include the input data files separately in the submission archive. The workflow export must not embed data, but the CSV files used by the workflow must be supplied alongside it.
 - Name the "rar" file with your team name, i.e. if you belong to team 11, then your "rar" file should be TEAM 11.rar.
 - Be sure your "TEAM 05.rar" file is smaller than 10MB
 - Upload the "TEAM 05.rar" file to the platform
